@@ -1,0 +1,98 @@
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'poppins';
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+/* HEADER AREA  */
+
+nav .brand-logo {
+font-size: 50px;
+color: rgb(255, 156, 107);
+text-shadow: 2px 2px black;
+font-family: 'pacifico';
+letter-spacing: 2px;
+margin-left: 20px;
+
+}
+
+.right li a {
+    text-transform: uppercase;
+    font-family: 'gilroy';
+    font-size: 18px;
+    margin-right: 20px;
+}
+.right li a:hover {
+    background-color: rgb(187, 123, 112);
+}
+
+.sidenav {
+    text-transform: uppercase;
+    font-family: 'poppins';
+}
+.sidenav li a {
+    color: white;
+}
+.sidenav li a:hover {
+    background-color: rgb(187, 123, 112);
+}
+
+/* SLIDER  */
+
+.slider .btn {
+    margin-top: 20px;
+}
+img {
+    filter: brightness(70%);
+}
+#caption {
+    color: rgb(238, 193, 110);
+}
+
+/* SEARCH  */
+
+#search h5{
+    color: rgb(0, 0, 0);
+    font-family: "gilroy";
+    text-transform: uppercase;
+
+}
+
+.section-search input {
+    padding: 5px !important;
+    font-size: 18px !important;
+    width: 70% !important;
+    border: #f4f4f4 3px solid !important;
+
+}
+
+
+/* FOLLOW US  */
+
+.fa-facebook {
+    color: rgb(57, 57, 246);
+    text-shadow: 2px 2px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.fa-twitter {
+    color: rgb(147, 181, 246);
+    text-shadow: 2px 2px black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fa-instagram {
+    color: rgb(236, 44, 6);
+    text-shadow: 2px 2px black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
